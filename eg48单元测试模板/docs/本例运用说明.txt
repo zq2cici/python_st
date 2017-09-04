@@ -1,0 +1,7 @@
+本例出自：笨办法学 Python2.0
+http://old.sebug.net/paper/books/LearnPythonTheHardWay/ex48.html
+编译器：用spyder 编辑   python3.6.1  window7
+
+该例子可以作为自动化测试模板
+
+ 在从DOC命令行到该工程目录下，运行命令“nosetests”
