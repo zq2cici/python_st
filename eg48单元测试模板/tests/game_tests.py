@@ -7,7 +7,17 @@ Created on Sat Sep  2 09:16:48 2017
 from nose.tools import *
 from game.eg48 import lexicon
 
+#每个测试函数运行前运行
+def setup():
+    print( "SETUP!")
+	
+#每个测试函数运行完后执行
+def teardown():
+    print( "TEAR DOWN!")
 
+def test_basic():
+    print( "I RAN!")
+    
 def test_direction():
     assert_equal(lexicon.scan("north"),[('direction','north')])    
     result = lexicon.scan("north south east")
